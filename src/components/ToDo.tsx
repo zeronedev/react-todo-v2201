@@ -8,6 +8,13 @@ function ToDo({ text, id, categori }: IToDo) {
     const {
       currentTarget: { name },
     } = event;
+    setToDos((oldTodos) => {
+      const targetIndex = oldTodos.findIndex((toDo) => toDo.id === id);
+      const newToDo = { text, id, categori: name };
+      console.log(targetIndex);
+      console.log(newToDo);
+      return oldTodos;
+    });
   };
   return (
     <li>
