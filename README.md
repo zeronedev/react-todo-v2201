@@ -1,1 +1,1 @@
-#5.13 Categories (07:26) 강의 시작
+#5.17 Selectors part Two (14:15) 강의 완료 코드 시작
